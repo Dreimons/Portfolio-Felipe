@@ -1,0 +1,53 @@
+.about-wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr;
+    max-width: 1000px;
+    padding-top: 50px;
+    height: 100vh;
+}
+
+.about-me h2{
+    padding-top: 20px;
+    text-align: left;
+}
+
+.image-about-section {
+    margin-bottom: 50px;
+}
+
+.image-about-section img {
+    background-color: black;
+    padding: 10px;
+    box-shadow: 1px 1px 20px white;
+    width: 1000px;
+    height: 1000px;
+}
+
+.name-about h3 {
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid black;
+}
+
+.about-short-intro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+
+.personal-about {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 50px;
+} 
+
+
+

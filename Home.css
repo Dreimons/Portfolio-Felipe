@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    color: var(--colors);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bgcolor);
+    display: flex;
+}
+
+a{
+    color: var(--colors);
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h1, h2, span {
+    cursor: default;
+}
+
+.wrapper {
+    margin-left: 20vw;
+    position: relative;
+    width: 80vw;
+    min-height: 100vh;
+}
+
+:root {
+    --bgcolor: linear-gradient(to left, #4F4F51, #2C2B30);
+    --colors: #D6D6D6;
+    --fontsize: 1.5em;
+}
+
+.section {
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section.active {
+    display: block;
+    padding: 0;
+}
+ 
+.nav-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20vw;           
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.2);
+    background: var(--bgcolor); 
+    z-index: 1000;
+}
+
+.navigation {
+    font-weight:lighter;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    gap: 50px;
+}
+
+a {
+    align-items: center;
+    width: 100%;
+    transition: 0.2s ease;
+}
+
+a:active, a:focus {
+    font-weight: bold;
+}
+
+.my-image-name {
+    margin: 0 auto;
+    height: 100vh;
+    width: 1000px;
+    align-items: center;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.myPicture img {
+    box-shadow: 1px 1px 20px white;
+    align-items: center;
+    cursor: pointer;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+
+.myPicture {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction span{
+    font-size: 30px;
+}
+
+.introduction h1, h2{
+    display: flex;
+}
+
+.introduction h1 {
+    font-size: 70px;
+}

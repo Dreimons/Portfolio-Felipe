@@ -1,0 +1,117 @@
+.projects-wrapper {
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 550px);
+    grid-gap: 100px 50px;
+    grid-template-areas: 
+                        'topleft topright'
+                        'midleft midright'
+                        'bottomleft bottomright';
+}
+
+.projects-wrapper .project-image-container .image-preview{
+    overflow: hidden;
+}
+
+.projects-wrapper .project-image-container .image-preview img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.project-image-container {
+    display: flex;
+    height: 2000;
+    flex-direction: column;
+}
+
+.project-details {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-details button {
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--colors);
+    background: var(--bgcolor);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.project-details span {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+/*storefront*/
+
+.storefront-design-1 {
+    background-color: black;
+    grid-area: topleft;
+    padding: 10px;
+    box-shadow: 1px 1px 20px white;
+}
+
+.storefront-design-2 {
+    background-color: black;
+    grid-area: topright;
+    padding: 10px;
+    box-shadow: 1px 1px 20px white;
+}
+
+
+/**/
+
+
+/*enhaned brand content*/
+.enhanced-brand-content-1 {
+    background-color: black;
+    grid-area: midleft;
+    padding: 10px;
+    box-shadow: 1px 1px 20px white;
+}
+
+.enhanced-brand-content-2 {
+    background-color: black;
+    grid-area: midright;
+    padding: 10px;
+    box-shadow: 1px 1px 20px white;
+}
+
+/**/
+
+
+/*product listing*/
+.product-listing-ads-2 {
+    background-color: black;
+    grid-area: bottomleft;
+    padding: 10px;
+    box-shadow: 1px 1px 20px white;
+}
+
+
+.product-listing-ads-1 {
+    background-color: black;
+    grid-area: bottomright;
+    padding: 10px;
+    box-shadow: 1px 1px 20px white;
+}
+
+
+/**/
+
+ 
+
+ 

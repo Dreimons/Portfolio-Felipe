@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="Stylesheet" href="Home.css">
+    <link rel="Stylesheet" href="About.css">
+    <link rel="Stylesheet" href="Project.css">
+    <link rel="Stylesheet" href="Contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+   <nav id="nav-links" class="nav-links">
+        <ul class="navigation">
+            <li><h3>Andrei <span class="2025-date">2025</span></h3></li>
+            <li><a href="#" data-content="home">Home</a></li>
+            <li><a href="#" data-content="about">About</a></li>
+            <li><a href="#" data-content="project">Project</a></li>
+            <li><a href="#" data-content="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="section home"  id="home"> <!--Section active-->
+        <div class="my-image-name">
+            <div class="myPicture">
+                <img src="My-picture/Me.jpg" alt="dambuboy">
+            </div>
+
+            <div class="introduction">
+                <br>
+                    <h1>Andrei Felipe</h1>
+                    <span>I am a Graphic Designer</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section about" id="about"><!--Section about-->
+        <div class="about-wrapper">
+            <div class="image-about-section">
+                <img src="My-picture/me-about.jpg">
+            </div>
+            <div class="about-text">
+                <div class="name-about">
+                    <h3>Mark Andrei Felipe</h3>
+                </div>
+                <div class="introduction-about">
+                    <p class="about-short-intro">
+                        Hi! I'm Andrei Felipe, an aspiring Front-End Developer and Graphic Designer 
+                        with a passion for bringing ideas to life through clean code and creative visuals. 
+                        I specialize in building responsive, user-friendly interfaces, and I enjoy designing graphics 
+                        using Canva to add a unique touch to every project. I'm always learning and exploring new ways 
+                        to blend design and functionality to create meaningful digital experiences.
+                    </p>
+                </div>
+                <div class="personal-about">
+                    <!--<ul class="personal-id">
+                        <li>Birthday: 09/02/2005</li>
+                        <li>Address: Batangas</li>
+                        <li>Email: markandreifelipe@gmail.com</li>
+                        <li>Nationality: Philippines</li>
+                        <li>Study: 2nd year college</li>
+                    </ul>-->
+                    <div class="birth-add-email">
+                        <p>Birthday: 09/02/2005</p>
+                        <p>Address: Batangas</p>
+                        <p>Email: markandreifelipe@gmail.com</p>
+                    </div>
+                    <div class="nationality-study">
+                        <p>Nationality: Philippines</p>
+                        <p>Study: 2nd year college</p>
+                    </div>           
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section project" id="project"><!--section project-->
+        <div class="projects-wrapper">
+            <div class="storefront-design-1">
+                <div class="project-image-container">
+                    <div class="image-preview">
+                        <img src="Amazon-storefront/Amazon-storefront-cerave.png" alt="Storefront design for cerave">  
+                    </div>
+                    <div class="project-details">
+                        <div class="design-name-1-a">
+                            <span>Storefront</span>
+                        </div>
+                        <div class="click-image">
+                            <button onclick="gotoLink(this)" value="https://www.canva.com/design/DAGsEfNmEvg/tVdiM3oFFMLz7oPCrvFboQ/edit?utm_content=DAGsEfNmEvg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">View</button>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+
+            <div class="storefront-design-2">
+                <div class="project-image-container">
+                    <div class="image-preview">
+                        <img src="Amazon-storefront/Amazon-storefront-done.png" alt="Storefront design for steelseries headset">
+                    </div>
+                    <div class="project-details">
+                        <div class="design-name-2-a">
+                            <span>Storefront</span>
+                        </div>
+                        <div class="click-image">
+                            <button onclick="gotoLink(this)" value="https://www.canva.com/design/DAGsQorL3Gw/0e0aN3e_mKkKC7foS-OFgQ/edit?utm_content=DAGsQorL3Gw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">View</button>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+
+
+            <div class="enhanced-brand-content-1">
+                <div class="project-image-container">
+                    <div class="image-preview">
+                        <img src="Amazon-enhanced/Everden-done.png" alt="Enhanced brand content design for everden">
+                    </div>
+                    <div class="project-details">
+                        <div class="design-name-1-b">
+                            <span>Enhanced Brand Content</span>
+                        </div>
+                        <div class="click-image">
+                            <button onclick="gotoLink(this)" value="https://www.canva.com/design/DAGsK-WVBO8/MXb_8Nn7AtPHAxwzIy9u4A/edit?utm_content=DAGsK-WVBO8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">View</button>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+
+            <div class="enhanced-brand-content-2">
+                <div class="project-image-container">
+                    <div class="image-preview">
+                        <img src="Amazon-enhanced/Northface-Amazon_Enhancedbrand-done.png" alt="Enhanced brand content for northface jacket">
+                    </div>
+                    <div class="project-details">
+                        <div class="design-name-2-b">
+                            <span>Enhanced Brand Content</span>
+                        </div>
+                        <div class="click-image">
+                            <button onclick="gotoLink(this)" value="https://www.canva.com/design/DAGsjLonIkE/yXEhOqIarLYlBqc7LD4ifA/edit?utm_content=DAGsjLonIkE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">View</button>
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+               
+            <div class="product-listing-ads-1">
+                <div class="project-image-container">
+                    <div class="image-preview">
+                        <img src="Amazon-listing/Nautica-Amazon-Listing-Ads-Done.png" alt="Product listing ad for nautica">
+                    </div>
+                    <div class="project-details">
+                        <div class="design-name-1-c">
+                            <span>Prodcut Listing Ads</span>
+                        </div> 
+                        <div class="click-image">
+                            <button onclick="gotoLink(this)" value="https://www.canva.com/design/DAGspmYSjx0/rTfmp7GgMEwS4jmQpydZKQ/edit?utm_content=DAGspmYSjx0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">View</button>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+
+            <div class="product-listing-ads-2">
+                <div class="project-image-container">
+                    <div class="image-preview">
+                        <img src="Amazon-listing/Olly-Amazon-product-listing-done.png" alt="Product listing ad for olly">
+                    </div>
+                    <div class="project-details">
+                        <div class="design-name-2-c">
+                            <span>Prodcut Listing Ads</span>
+                        </div>
+                        <button onclick="gotoLink(this)" value="https://www.canva.com/design/DAGsoe7OYQM/OH2WZWTKvniXNMVKABqZ3g/edit?utm_content=DAGsoe7OYQM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>            
+
+    <div class="section active" id="contact">
+        <div class="link-holder">
+            <div class="border-contact">
+                <div class="ph-number">
+                    <span class="contact-holder">Phone no:</span><span class="value">09274004101</span>
+                </div>
+                <div class="email-holder">
+                    <span class="contact-holder">Email:</span> <span class="value">markandreifelipe@gmail.com</span>
+                </div>
+                <div class="socials-icon">
+                    <a class="value-icon" href="https://www.facebook.com/andrei.felipe.908/"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a class="value-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
